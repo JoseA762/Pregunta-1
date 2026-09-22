@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.barra-horizontal {
+    background-color: #b5121b;
+    height: 130px;
+}
+
+.barra-horizontal .logo img{
+    width: 200px;
+    height: 130px;
+    margin-left: 70px;
+}
+
+.barra-horizontal .navegar {
+    justify-content: space-between;
+    margin-left: 670px;
+    height: 80px;
+    margin-top: auto;
+    gap: 70px;
+}
+
+.barra-horizontal .navegar button{
+    color: white;
+    background-color: #b5121b;
+    border-radius: 8px;
+    justify-content: space-between;
+    margin-top: 0;
+    
+}
+
+.portada .nombre-portada {
+    color: #ffd60a;
+    content: 150px;
+}
+
+.menu-opciones {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    border: bold;
+    border-radius: 10px;
+    border-width: 12px;
+    border-color: black;
+    justify-content: space-around;
+}
+
+.menu-opciones img {
+    width: 120px;
+    height: 150px;
+}
+
+.menu-opciones h2 {
+    align-content: center;
+}
+.menu-opciones h3 {
+    justify-content: center;
+}
